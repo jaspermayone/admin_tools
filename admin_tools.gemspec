@@ -5,8 +5,8 @@ require_relative "lib/admin_tools/version"
 Gem::Specification.new do |spec|
   spec.name = "admin_tools"
   spec.version = AdminTools::VERSION
-  spec.authors = ["Jasper"]
-  spec.email = ["your-email@example.com"]
+  spec.authors = ["Jasper Mayone"]
+  spec.email = ["me@jaspermayone.com"]
 
   spec.summary = "Simple admin-only content helpers for Rails views"
   spec.description = "A lightweight Rails helper for conditionally rendering admin-only content in views. Wrap any content in an admin_tool block and it only renders for admin users."
