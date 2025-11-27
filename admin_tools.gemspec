@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Simple admin-only content helpers for Rails views"
   spec.description = "A lightweight Rails helper for conditionally rendering admin-only content in views. Wrap any content in an admin_tool block and it only renders for admin users."
-  spec.homepage = "https://github.com/jasper/admin_tools"
+  spec.homepage = "https://github.com/jaspermayone/admin_tools"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
