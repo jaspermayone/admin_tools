@@ -1,0 +1,14 @@
+/*
+ * AdminTools Tailwind styles
+ * Uses Tailwind's @apply directive for styling
+ */
+
+.admin-tools {
+  @apply border-2 border-dashed border-red-500 bg-red-50/50 p-2 rounded relative;
+}
+
+/* Optional: Add an "Admin" label */
+.admin-tools::before {
+  content: "Admin";
+  @apply absolute -top-2.5 left-2 bg-red-500 text-white text-xs font-semibold px-1.5 py-0.5 rounded uppercase tracking-wide;
+}

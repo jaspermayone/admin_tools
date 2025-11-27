@@ -1,0 +1,24 @@
+
+===============================================================================
+
+AdminTools has been installed!
+
+Next steps:
+
+1. Update config/initializers/admin_tools.rb if you need to customize:
+   - The method used to get the current user
+   - The method used to check if a user is an admin
+   - The default CSS class or wrapper element
+
+2. Use admin_tool in your views:
+
+   <%% admin_tool do %>
+     <%%= link_to "Admin Action", admin_path %>
+   <%% end %>
+
+3. (Optional) Add CSS to style admin tools visually:
+
+   rails generate admin_tools:install --css
+   rails generate admin_tools:install --css --tailwind
+
+===============================================================================
